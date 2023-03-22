@@ -29,7 +29,7 @@ function submit(buttonElem) {
     return;
   }
 
-  messageObj.message = `NEW ORDER SUBMITTED. ${orderDetails}`;
+  messageObj.message = `${orderDetails}`;
   
   sendData(messageObj);
 
